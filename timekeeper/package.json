@@ -1,0 +1,16 @@
+{
+  "name": "timekeeper",
+  "version": "1.0.0",
+  "description": "Measures delay between pulling a GPIO pin low and another GPIO pin being pulled low",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Gerrit Plehn",
+  "license": "ISC",
+  "dependencies": {
+    "arg": "^5.0.1",
+    "mathjs": "^9.4.4",
+    "pigpio": "^3.3.1"
+  }
+}

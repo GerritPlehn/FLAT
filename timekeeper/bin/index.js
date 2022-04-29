@@ -80,13 +80,14 @@ const main = async function () {
     await delay(keypressDuration)
     eButton.digitalWrite(0)
   }
+  process.stdout.write('\n')
 
   console.log('average:' + math.mean(measurements))
   console.log('median:' + math.median(measurements))
   console.log('deviation: ' + math.std(measurements))
   console.log('variance: ' + math.variance(measurements))
   console.log('done')
-  return 0
+  process.exit(0)
 }
 
 main()

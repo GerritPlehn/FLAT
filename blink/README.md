@@ -1,4 +1,4 @@
-# Blink - Free Latency Analysis Tool
+# Blink - Free Latency Analysis Toolkit
 
 Simple OpenGL application that switches the window from black to white as long as a key is pressed.
 

@@ -1,4 +1,4 @@
-# Timekeeper - Free Latency Analysis Tool
+# Timekeeper - Free Latency Analysis Toolkit
 
 Controller to measure the response time of `../blink` after closing a circuit.
 
